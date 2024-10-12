@@ -8,7 +8,7 @@ public class ShadowDecorator extends FigureDecorator{
 
     @Override
     public String getDescription() {
-        return super.getDescription() + " and with shadow";
+        return super.getDescription() + " with shadow";
     }
 
     @Override

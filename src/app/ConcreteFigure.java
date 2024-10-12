@@ -14,7 +14,7 @@ public class ConcreteFigure implements Figure{
 
     @Override
     public String getDescription() {
-        return firstLetterToUpperCase(color) + shape;
+        return firstLetterToUpperCase(color) + " " + shape;
     }
 
     @Override

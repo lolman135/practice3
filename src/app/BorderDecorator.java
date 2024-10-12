@@ -11,7 +11,7 @@ public class BorderDecorator extends FigureDecorator{
 
     @Override
     public String getDescription() {
-        return super.getDescription() + " and with " + borderWidth + "px. width border";
+        return super.getDescription() + " with " + borderWidth + "px. width border";
     }
 
     @Override
