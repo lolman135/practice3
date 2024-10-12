@@ -19,7 +19,7 @@ public class ConcreteFigure implements Figure{
 
     @Override
     public void draw(int x, int y) {
-        System.out.printf("Draw %s %s at position (%d;%d)", color, shape, x, y);
+        System.out.printf("Draw %s %s at position (%d;%d)\n", color, shape, x, y);
     }
 
     private String firstLetterToUpperCase(String string){

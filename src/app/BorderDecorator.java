@@ -11,12 +11,12 @@ public class BorderDecorator extends FigureDecorator{
 
     @Override
     public String getDescription() {
-        return super.getDescription() + "with " + borderWidth + "px. width border";
+        return super.getDescription() + " and with " + borderWidth + "px. width border";
     }
 
     @Override
     public void draw(int x, int y) {
-        System.out.printf("Draw border, width: %dpx.", borderWidth);
+        System.out.printf("Draw border, width: %dpx.\n", borderWidth);
         super.draw(x, y);
     }
 }
